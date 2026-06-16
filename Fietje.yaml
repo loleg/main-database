@@ -40,9 +40,9 @@ datasources_basemodel:
     notes: "Based on phi2 by Microsoft, for which pretraining data has not been disclosed. Phi2 documentation says only '250B tokens, combination of NLP synthetic data created by AOAI GPT-3.5 and filtered web data from Falcon RefinedWeb and SlimPajama, which was assessed by AOAI GPT-4.'."
 
 datasources_endmodel:
-    class: partial
-    link: https://huggingface.co/datasets/BramVanroy/wikipedia_culturax_dutch
-    notes: "Finetuning of Phi not fully documented; derivative uses a Wikipedia and CulturaX mix for Dutch."
+    class: open
+    link: https://github.com/BramVanroy/fietje-2#training-and-data
+    notes: "Derivative uses a Wikipedia and CulturaX mix for Dutch for continued-pretraining, and publicly available datasets for instruction and preference tuning."
 
 weights_basemodel:
     class: open
@@ -76,8 +76,8 @@ preprint:
     notes: 
 
 paper:
-    class: closed
-    link: 
+    class: open
+    link: https://www.clinjournal.org/clinj/article/view/213
     notes: 
 
 modelcard:
