@@ -41,7 +41,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: open
-    link: https://github.com/BramVanroy/fietje-2#training-and-data
+    link: ["https://huggingface.co/datasets/BramVanroy/wikipedia_culturax_dutch", "https://huggingface.co/datasets/BramVanroy/ultrachat_200k_dutch", "https://huggingface.co/datasets/BramVanroy/no_robots_dutch", "https://huggingface.co/datasets/BramVanroy/belebele_dutch", "https://huggingface.co/datasets/BramVanroy/ultra_feedback_dutch_cleaned", "https://huggingface.co/datasets/BramVanroy/orca_dpo_pairs_dutch_cleaned"]
     notes: "Derivative uses a Wikipedia and CulturaX mix for Dutch for continued-pretraining, and publicly available datasets for instruction and preference tuning."
 
 weights_basemodel:
